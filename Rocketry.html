@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="x-icon" href="InShot_20230115_144902499.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rocketry</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css?family=Aboreto&display=swap&effect=neon');
+  @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Roboto:wght@300&family=Rubik+Wet+Paint&display=swap');
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+        }
+
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        .hero {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(red);
+            position: relative;
+            padding: 0 5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px 8%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav .logo {
+            width: 150px;
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline-table;
+            margin-left: 40px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 17px;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 130px;
+            color: aliceblue;
+            font-weight: 500;
+        }
+
+        .content h1:hover {
+            -webkit-text-stroke: 2px #fff;
+            color: transparent;
+            transition: 0.7s;
+        }
+
+        .content a {
+            text-decoration: none;
+            display: inline-block;
+            color: #fff;
+            font-size: 24px;
+            border: 2px solid #fff;
+            padding: 12px 70px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="images/The Mountain(720P_HD).mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="hero">
+        <nav>
+            <img src="images/InShot_20230115_144902499.png" class="logo">
+            <ul>
+                <li class="font-effect-neon"><a href="">HOME</a></li>
+                <li class="font-effect-neon"><a href="login.html">LOGIN</a></li>
+                <li class="font-effect-neon"><a href="Rocketry Expoler.html">EXPLORE</a></li>
+                <li class="font-effect-neon"><a href="contact us.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Rocketry </h1>
+            <a href="Rocketry Expoler.html">EXPLORE</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="x-icon" href="InShot_20230115_144902499.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocketry login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Aboreto&display=swap&effect=3d|fire-animation');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+        }
+
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+
+
+        .hero {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(red);
+            position: relative;
+            padding: 0 5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        nav {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px 8%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav .logo {
+            width: 150px;
+        }
+
+        nav ul li {
+            color: aliceblue;
+            font-family: 'Aboreto',sans-serif;
+            list-style: none;
+            display: inline-table;
+            margin-left: 40px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 17px;
+        }
+
+        .login {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            color: #fff;
+
+            font-size: 20px;
+            box-shadow: inset;
+
+        }
+
+        .date {
+            text-align: left;
+        }
+
+        .logogen {
+            text-align: left;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="images/mixkit-stars-in-space-background-1610-medium.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="hero">
+        <nav>
+            <img src="images/InShot_20230115_144902499.png" class="logo">
+            <ul>
+                <li class="font-effect-fire-animation"><a href="Rocketry.html">HOME</a></li>
+                <li class="font-effect-fire-animation"><a href="login.html">LOGIN</a></li>
+                <li class="font-effect-fire-animation"><a href="Rocketry Expoler.html">EXPLORE</a></li>
+                <li class="font-effect-fire-animation"><a href="contact us.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <fieldset style="padding: 5%;">
+        <form action="#" method="post">
+            <div class="login">
+
+                <input type="text" name="username" id="username" placeholder="Username" required>
+                <br>
+
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <br>
+
+                <input type="password" name="password" id="password" placeholder="Password" max="8" required>
+
+                <div class="date">
+                    <label>Date of birth</label>
+                    <input type="date" name="date of birth" id="date of birth" placeholder="Date of birth" max="2030"
+                        min="1947" required>
+                </div>
+
+
+
+                <div class="logogen">
+                    <LABLE>Enter your gender</LABLE>
+                    <br>
+                    <input type="radio" name="gender" id="Male" required>
+                    <label for="Male">Male</label>
+                    <br>
+
+                    <input type="radio" name="gender" id="Female" required>
+                    <label for="Female">Female</label>
+                    <br>
+
+                    <LABLE>Enter your state</LABLE>
+                    <select>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Tamil nadu">Tamil nadu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+
+                        <option value="Telangana">Telangana</option>
+                        <option value="West Bengal">West Bengal</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Tripura">Tripura</option>
+
+                    </select>
+                </div>
+                <br>
+                <input type="checkbox" id="accept" required>
+
+                <button>Sign up</button>
+                <button>reset</button>
+            </div>
+        </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
